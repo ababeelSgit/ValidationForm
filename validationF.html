@@ -1,0 +1,76 @@
+<ht>
+<head>
+  <link rel="stylesheet" href="ValidationF.css">
+    <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/36179739fa.js" crossorigin="anonymous"></script>
+   <script src="ValidationF.js"></script>
+<title> Log In Page</title>
+
+
+
+  
+
+
+
+</head>
+<body>
+  
+<div class="Container">
+<div class="header">
+
+     <h2> Create Account   </h2>
+</div>
+
+<form id="form" name="Myform" class="form"  onsubmit="return Valid()">
+        
+  <div class="form-control ">
+    <label for="username">Username</label>
+    <input type=" text" placeholder=" Enter your name"  name="user"  id="username"  <br>
+    <i class="fas fa-check-circle"> </i>          
+    <i class="fas fa-exclamation-circle"> </i> 
+    <small> Error message </small> 
+
+  </div>
+
+  <div class="form-control ">
+   <label for="email"> Email  </label>
+   <input type="email" placeholder="username@gmail.com" name="mail"  id="email"  <br> 
+   <i class="fas fa-check-circle"> </i>          
+   <i class="fas fa-exclamation-circle"> </i> 
+   <small> Error message </small> 
+  </div>
+
+  <div class="form-control">
+   <label for="password"> Password         </label>
+   <input type="password" placeholder="Enter your password"  name="pass" id="password"  <br>
+   <i class="fas fa-check-circle"> </i>          
+   <i class="fas fa-exclamation-circle"> </i>
+   <small> Error message </small> 
+  </div>
+
+  <div class="form-control">
+    <label for="username"> Confirm your password    </label>
+    <input type="password1" placeholder="Re-Enter"  name="pass1" id="password2"  <br>
+    <i class="fas fa-check-circle"> </i>          
+    <i class="fas fa-exclamation-circle"> </i> 
+    <small> Error message </small> 
+    
+  </div>
+
+  <button>Submit</button>
+
+
+
+</form>
+  
+</div>
+
+
+
+  
+
+
+
+</body>
+
+</html>
